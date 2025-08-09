@@ -1,0 +1,64 @@
+.navbar{
+    margin: 20px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.logo-name{
+    font-size: 80px;
+    font-family: "Aladin";
+    /* background: linear-gradient(to right, #603813 0%, #b29f94 100%); */
+    background: linear-gradient(135deg, #072460 0%, #1c50b1 50%,#99a7c5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 200%;
+}
+.anchor-link{
+    text-decoration: none;
+      color:  #072460;
+}
+
+#connect2{
+    color: white;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:50px;
+    font-size:20px ;
+    text-decoration: none;
+    font-family: "Proza Libre";
+    font-weight: 500;
+}
+
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.nav-connect{
+    padding: 20px 30px;
+    margin-right: -40px;
+    border-radius: 50px;
+    /* background: linear-gradient(135deg, #0a214d 0%, #1f4996 50%,#1d2c4d 100%); */
+background: linear-gradient(145deg, #2b5876 0%, #3d1abc 100%);
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: "Proza Libre";
+    border: white 1px solid ;
+    transition: 0.3s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}

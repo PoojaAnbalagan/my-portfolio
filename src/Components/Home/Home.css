@@ -1,0 +1,72 @@
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    font-family: "Proza Libre";
+}
+
+.home h1{
+    margin: 130px ;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 70%;
+    font-size: 80px;
+    /* font-weight: 600; */
+}
+
+.home h1 span{
+background: linear-gradient(90deg, #f5f7fa 0%, #c3cfe2 100%);
+text-shadow: 
+  0 0 1px #ffffff,
+  0 3px 7px #080d4d,
+  0 0 13px #040e42;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home p{
+    width: 70%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+
+.home-action{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 25px;  
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 50px ;  
+}
+
+.home-connect:hover{
+    border: 2px solid white;
+}
+
+#connect1{
+    color: white;
+}
+
+.home-connect{
+    padding: 25px 15px;
+    border-radius: 50px;
+  background: linear-gradient(145deg, #2b5876 0%, #3d1abc 100%);
+    cursor: pointer;
+    color: azure;
+}
+
+.resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.resume:hover{
+    border-color: #07389a;
+}

@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    color:  #072460;
+    background: linear-gradient(265deg, #c9ced9 0%, #a5abb6 100%);
+ 
+}

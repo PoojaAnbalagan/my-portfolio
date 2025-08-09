@@ -1,0 +1,152 @@
+.mywork{
+  
+ 
+
+    margin: 80px 170px;
+    font-family: "Proza Libre";
+}
+
+.mywork-title{
+    position: relative;
+}
+
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mywork-title p{
+    font-size: 23px;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 30px; 
+    text-align: justify;  
+}
+
+.mywork-cards{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    margin: 50px ;
+}
+
+.mywork-card-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.mywork-card-para{
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    margin-top: 70px;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+.mywork-card-img img{
+    width: 100%;
+    height: auto; 
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    transition: 0.3s; 
+    margin-bottom: -50px; 
+}
+
+.mywork-card-img img:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+
+.github-link{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+     
+}
+
+.github-link p{
+    background: linear-gradient(145deg, #2b5876 0%, #3d1abc 100%);
+    padding: 20px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: azure;
+    margin: 30px 320px;
+    border: 1px solid white;
+    transition: 0.3s;
+    
+}
+
+.github-link p:hover{
+        transform: scale(1.06);
+    transition: 0.3s;
+
+}
+
+.github-link a{
+text-decoration: none;
+}
+
+
+
+
+#image{
+    height: 102.5%;
+}
+.mywork-card-img {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr; 
+    gap: 100px;
+    margin-bottom: 10px;   
+}
+
+#image0{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+    border: none;
+    transition: 0.3s; 
+    margin: -10px 10px;
+
+  
+}
+
+#card-2{
+    gap: 40px;
+      display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr; 
+
+    margin-bottom: 10px; 
+ 
+}
+
+#image0:hover{
+    border: 2px solid rgb(15, 32, 159);
+
+}
+
+.vid_2{
+  
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px;
+    border: #ffffff 5px solid;
+    
+}
+
+.vid_1 {
+    position: relative;
+    width: 210%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+      border: #ffffff 5px solid;
+  }
